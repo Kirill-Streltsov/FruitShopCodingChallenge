@@ -7,3 +7,6 @@ The iOS application in this repository is supposed to fetch and display a list o
 [Swagger](https://app.swaggerhub.com/apis/AldrianIT/fruit-shop_api/2.0.0#/Products/getProducts)
 
 ([original](https://www.predic8.de/rest-api-public-sample.htm))
+
+![Overview Screen](Screenshots/Overview.png "Overview Screen")
+![Detail Screen](Screenshots/Detail.png "Detail Screen")
