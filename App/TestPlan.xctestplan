@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "7EF7D6D6-D257-43F8-877F-FA1E4C9DEC5B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+
+    ],
+    "environmentVariableEntries" : [
+      {
+        "key" : "runningAsUnitTestsHostApplication",
+        "value" : "YES"
+      }
+    ],
+    "language" : "en",
+    "region" : "DE",
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FruitsShopClient.xcodeproj",
+        "identifier" : "598676142A7C302300CFDDB5",
+        "name" : "FruitsShopClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Utilities",
+        "identifier" : "UtilitiesTests",
+        "name" : "UtilitiesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
