@@ -2,8 +2,6 @@ import UIKit
 
 final class FruitDetailView:  UIView {
 
-    #warning("TODO: configure/add constraints in FruitDetailView.xib")
-
     @IBOutlet private var imageView: UIImageView!
     @IBOutlet private var priceLabel: UILabel!
     @IBOutlet private var descriptionLabel: UILabel!

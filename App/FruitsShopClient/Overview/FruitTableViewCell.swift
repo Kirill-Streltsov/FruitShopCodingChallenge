@@ -6,14 +6,15 @@ final class FruitTableViewCell: UITableViewCell {
 
     var product = Product(id: -1, name: "", detailsURL: .init(fileURLWithPath: "/")) {
         didSet {
-            #warning("TODO: display the product's id in brackets and its name")
-            // e.g. [1] Banana
+            self.textLabel?.text = "[\(product.id)] \(product.name)"
         }
     }
 
     var thumbnail = UIImage() {
         didSet {
-            #warning("TODO: display the thumbnail")
+            self.imageView?.image = thumbnail
+            self.imageView?.sizeToFit()
+            self.setNeedsLayout()
         }
     }
 }
